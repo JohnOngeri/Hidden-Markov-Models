@@ -116,7 +116,7 @@ def process_zip(zip_path: str, output_dir: str, tolerance_ns: int = 2_000_000) -
 def main():
     ap = argparse.ArgumentParser(description="Merge Sensor Logger ZIPs into combined CSVs for HMM pipeline.")
     ap.add_argument("--input_dir", type=str, default=".", help="Folder with .zip files")
-    ap.add_argument("--output_dir", type=str, default="./data/train", help="Where to write combined CSVs")
+    ap.add_argument("--output_dir", type=str, default="./data/test", help="Where to write combined CSVs")
     ap.add_argument("--pattern", type=str, default="*.zip", help="Glob pattern for zip files")
     ap.add_argument("--tolerance_ms", type=float, default=2.0, help="Timestamp matching tolerance in milliseconds")
     args = ap.parse_args()
