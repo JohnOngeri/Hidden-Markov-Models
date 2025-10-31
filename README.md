@@ -46,13 +46,6 @@ Each CSV file should contain:
 
 Sampling rate: ~100 Hz
 
-## Results
-
-The analysis generates:
-- **Visualizations**: PNG images in `public/results/`
-- **Metrics**: JSON file with detailed performance metrics
-- **Console Output**: Step-by-step progress and summary statistics
-
 ## Technical Details
 
 ### Feature Extraction
