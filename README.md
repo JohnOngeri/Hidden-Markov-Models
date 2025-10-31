@@ -35,19 +35,6 @@ The system extracts time-domain and frequency-domain features from sensor window
 
 
 
-## Usage
-
-### Running the Analysis
-
-1. **Via Web Interface**: 
-   - Start the development server: `npm run dev`
-   - Open http://localhost:3000
-   - Click "Run Analysis" button
-
-2. **Via Command Line**:
-   \`\`\`bash
-   python3 scripts/hmm_har_analysis.py
-   \`\`\`
 
 ### Data Format
 
